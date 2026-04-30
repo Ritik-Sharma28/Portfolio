@@ -147,7 +147,7 @@ export default function Hero() {
               </Button>
               <Button
                 variant="tertiary"
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -183,7 +183,7 @@ export default function Hero() {
             >
               <div className="w-full h-full rounded-full overflow-hidden bg-bg-primary">
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Ritik Sharma — MERN Stack Developer"
                   className="w-full h-full object-cover will-change-transform"
                   loading="eager"

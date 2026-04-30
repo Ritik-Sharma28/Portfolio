@@ -5,7 +5,7 @@ export const projects = [
     tagline: 'Full-stack CP platform with AI battles',
     description:
       'A comprehensive competitive programming platform with a custom problem arena, real-time 1v1 DSA battles with ELO ranking, AI revision mentor (Groq), voice-driven mock interviews (Gemini), interactive DSA visualizations, JWT auth + Redis sessions.',
-    image: '/projects/coderax.jpg',
+    image: `${import.meta.env.BASE_URL}projects/coderax.jpg`,
     featured: true,
     features: [
       { icon: '🏟️', text: 'Custom judge engine + problem arena' },
@@ -25,7 +25,7 @@ export const projects = [
     tagline: 'Intelligent Document Chat with RAG',
     description:
       'Upload PDFs and chat with your documents using an advanced RAG pipeline with Pinecone vector search, Redis rate-limiting, and fully Dockerized deployment.',
-    image: '/projects/documind.jpg',
+    image: `${import.meta.env.BASE_URL}projects/documind.jpg`,
     features: [
       { icon: '📄', text: 'PDF upload & intelligent chat' },
       { icon: '🔍', text: 'RAG pipeline with Pinecone' },
@@ -43,7 +43,7 @@ export const projects = [
     tagline: 'Smart Study Partner Matching Platform',
     description:
       'Real-time study partner matching via weighted recommendation algorithms. Features live Socket.io chat, relevance-based content feed, and strict Zod schema validation.',
-    image: '/projects/studymate.jpg',
+    image: `${import.meta.env.BASE_URL}projects/studymate.jpg`,
     features: [
       { icon: '💬', text: 'Real-time chat via Socket.io' },
       { icon: '🤝', text: 'Weighted recommendation algorithm' },
@@ -60,7 +60,7 @@ export const projects = [
     tagline: 'Structured CP Practice Tracker',
     description:
       'Organized competitive programming problem tracker for Codeforces, categorized by topic, difficulty, and rating with 100+ solved problems.',
-    image: '/projects/cpsheet.jpg',
+    image: `${import.meta.env.BASE_URL}projects/cpsheet.jpg`,
     features: [
       { icon: '📊', text: 'Topic + difficulty categorization' },
       { icon: '🎯', text: '100+ solved problems' },

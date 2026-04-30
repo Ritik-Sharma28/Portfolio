@@ -124,7 +124,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/[0.06]">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-text-muted">
-            <p>© 2025 Ritik Sharma · All rights reserved</p>
+            <p>© 2026 Ritik Sharma · All rights reserved</p>
             <p className="text-xs">Built with React · Tailwind CSS · Framer Motion</p>
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
